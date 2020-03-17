@@ -1,0 +1,10 @@
+build/*.js
+src/assets
+public
+dist
+/src/components/el-data-table
+/src/components/el-form-renderer
+/src/components/datepicker
+/src/frontend-lib/
+/src/utils/Utils.js
+/src/components/vue-cropper/

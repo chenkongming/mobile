@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  //background: #f6f6f6;
+  background: #ffffff;
+
+    width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-size: 32px;
+  font-family: 'PingFangSC-Regular', 'DroidSansFallback', 'Microsoft YaHei',
+    '微软雅黑', Arial, Helvetica, Verdana, sans-serif;
+  transtion: all 0.3s;
+  cursor: pointer;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+.text--right {
+  text-align: right;
+}
+
+input[type='text'],
+input[type='number'] {
+  -webkit-appearance: none;
+}
